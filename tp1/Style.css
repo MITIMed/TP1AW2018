@@ -1,0 +1,39 @@
+
+body{
+    background: rgb(154, 214, 159);         
+              
+}
+table {
+border-collapse: collaspse;
+width: 100%;
+background-color: white;
+
+}
+table{
+width: 100%
+
+}
+.tab1,th,td {
+
+
+border: 1px solid black;  
+}
+.tab2,th,td {
+
+
+border: 1px solid black;
+}
+.tab3,th,td {
+
+
+border: 1px solid black;
+}
+img {
+width: 50px;
+height: 50px;
+
+}
+
+
+
+
