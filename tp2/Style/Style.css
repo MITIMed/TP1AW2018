@@ -1,0 +1,31 @@
+
+
+
+.cont
+{
+    overflow: auto;
+    background-color: white;
+    color: black;
+    margin: 40px;
+    padding: 50px;
+}
+h1 
+{
+	text-align: center;
+	font-weight: 50px;
+}
+label
+{
+    text-align:left;
+	display: block;
+	width: 140px;
+	float: left;
+}
+#error{
+	display: inline;
+ 
+	 }
+     #Result{
+        display: inline;
+     
+         }

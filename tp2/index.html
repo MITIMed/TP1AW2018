@@ -1,33 +1,60 @@
+²
 <!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>TP2</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
 
-        <style>
-          body{
-              background-color: #e9ebee;              
-              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-              font-size: 16px;
-              margin: 0 auto;
-              max-width: 800px;              
-          }
-        </style>
-        
-        <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-        <!--<link rel="stylesheet" href="style.css">-->
-        <!--<script src="js/main.js"></script>-->
-    </head>
-    <body>        
-        <h1>tp2</h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
-    </body>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TP2</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="fumolaire.js"></script>
+    <!-- Place favicon.ico in the root directory -->
+
+    <style>
+        body {
+            background-color: #e9ebee;
+            font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+            font-size: 16px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="Style/Style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <!--<script src="js/main.js"></script>-->
+</head>
+
+<body>
+
+    <h1>Formulaire de saisie d'une personne</h1>
+
+
+
+    <div class="cont">
+        <form>
+
+
+            <label for="Nom">Nom: </label><input type="text" id="namevalue" name="Nom"><br><br>
+
+            <label for="Prénom">Prénom: </label><input type="text" id="prevalue" name="Prénom"><br><br>
+            <label for="Date de naissance">Date de naissance: </label><input type="date" id="datvalue" name="Date de naissance"><br><br>
+            <label for="Adress">Adresse: </label><input type="text" id="addvalue" name="Adresse"><br><br>
+            <label for="Mail">Mail: </label><input type="text" id=mailvalue name="Mail"><br><br>
+            <input onclick="validation()" type="button" value="Valider" />
+
+        </form>
+    </div> 
+    <div style="text-align: center">
+        <div id="error"> </div>
+        <div id="Result"> </div>
+    </div>
+
+
+</body>
+
 </html>
