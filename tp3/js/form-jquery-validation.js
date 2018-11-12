@@ -1,7 +1,8 @@
 $( document ).ready(function() {
 
 
-    $("#valid").click(function(){
+    $("#valid").on("click",function(event){
+        event.preventDefault()
 if($("#nom").val().length <5)
 {
    
