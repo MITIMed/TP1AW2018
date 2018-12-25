@@ -91,7 +91,8 @@ Copier ces imports de scripts JS et CSS dans la section \<HEAD\>
 
 <!-- composants JS de boostrap (modal http://getbootstrap.com/docs/4.0/components/modal/ , collapse...) -->
 <script src="js/bootstrap.min.js"></script>
-```
+
+
 
 ## 3. Création du formulaire avec Bootstrap
       1. Sous la balise \<body\>, ajouter la DIV :
