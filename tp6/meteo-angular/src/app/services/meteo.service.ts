@@ -15,7 +15,7 @@ export class MeteoService {
 
     return fetch('https://api.openweathermap.org/data/2.5/weather/?q=' + name + '&units=metric&lang=fr&appid=756e2d9bae15f23f31939cdeb354b495')
       .then(function (response) {
-        return response.json();
+        return response.json() ;
       })
       .then(function (json) {
 
